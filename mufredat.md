@@ -7,13 +7,21 @@ Youtube eğitim linki: https://www.youtube.com/watch?v=hKjJbWBXjbA&list=PLfnjV8S
 --Müfredat--
 
 Ders1. Gazebo simulasyon ortamı ile Sitl bağlantısı nasıl yapılır?
+
 Ders2. Dronekit ile ardupilot(sitl ile çalışan ya da bir pixhawk içinde çalışan) arasındaki bağlantı nasıl yapılır?
+
 Ders3. Drone'u arm etme, Mod değiştirme, auto takeoff yaptırma.
+
 Ders4. Dronekit attributeleri
+
 Ders5. Parametreleri çekme ve onlara değer atama
+
 Ders6. Simple goto fonksiyonu ile drone'un dünya üzerindeki herhangi bir konuma gitmesini sağlama
+
 Ders7. Mavlink komutları, Hız komutu, frameler
+
 Ders8. Konum komutu
+
 Ders9. Mavlink Mesajı Dinleme, Gps zamanı.
 
 
