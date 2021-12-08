@@ -1,0 +1,48 @@
+Görev kontrol ünitesi görev kontrol bilgisayarı(Nvidia jetson nano gibi) içinde bulunan, Pixhawkla seri bağlantı üzerinden MAVlink haberleşme protokolüyle haberleşen scriptlerimizdir.
+Bu scriptimizin inputu görüntü işleme olacağı için görüntü işleme sonucu elde edeceğimiz faydalı bilgiler ve yine pixhawktan gelecek drone'umuzun durum bilgileridir. Outputumuz ise tekrar pixhawka gönderebileceğimiz konum, hız, açı vb komutlar olacaktır. Pixhawkta Ardupilot yazılımı çalıştıracağımız ve kontrol ünitemizle haberleştireceğimiz için bilgisayarımıza da ardupilot yazılımını kuracağız.
+Bunun yanında yazdığımız scripti görsel olarak görebilmek için Gazebo simülasyon ortamının da kurulumunu gerçekleştireceğiz. Aşağıda verilen komut satırları terminale yazılacaktır.
+
+Öncelikle alttaki komutla pip kurulumunu yapalım
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python-pip python-dev
+sudo apt-get install python3-pip
+
+Daha sonra Ardupilot yazılımını kuralım bunun için aşağıda url'si verilmiş siteden faydalanacağız. Tüm stepleri dikkatlice okuyalım bazıları eğer belli hataları yaparsanız yapmanız gereken hareketler olacak bazılarını ise direk yapmalısınız. Dikkatli bir şekilde okuyarak yaparsanız bunu anlarsınız. Ubuntu ortamına kurulum yapacağınız için additional stepsten ilerisine gitmenize gerek yok.
+
+https://ardupilot.org/dev/docs/building-setup-linux.html
+
+
+
+
+
+MAVproxy kurulumu: Mavproxy kullanılabilecek en minimal ve pratik yer istasyonudur. 
+
+sudo apt-get install python3-dev python3-opencv python3-wxgtk3.0 python3-pip python3-matplotlib python3-pygame python3-lxml python3-yaml
+
+pip install MAVProxy
+
+Daha fazla bilgi için: https://ardupilot.github.io/MAVProxy/html/index.html
+
+
+
+
+Simulasyon ortamını kurmamız gerekiyor. Bunu ardupilot eklentisiyle beraber kuracağız. Yapılması gerekenler aşağıdaki linkte mevcuttur. Eğer "start the simulator" adımını yaptıktan sonra açılmış içinde bir pist ve üstünde drone bulunan bir gazebo dünyası ekranıyla karşılaşırsanız kurulumu sorunsuz yapmışsınız demektir.
+
+https://ardupilot.org/dev/docs/using-gazebo-simulator-with-sitl.html
+
+pymavlink yüklemesi: MAVLink'in python için yazılmış kütüphanesidir.
+pip install pymavlink
+
+
+Dronekit kurulumu. Programla yapmak için kullacağımız arayüz bu yazılımdır. Scriptlerimizi bu yazılımın özelliklerini kullanarak yazacağız.
+Hakkında ayrıntılı bilgi için burayı okuyabilirsiniz: https://dronekit-python.readthedocs.io/en/latest/about/overview.html
+
+Kurulum:
+pip install dronekit
+pip3 install dronekit
+
+Kurulumları neredeyse tamamladık diyebiliriz artık yazılımsal çalışmalarımıza başlayabiliriz.
+
+
+
