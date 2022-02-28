@@ -1,6 +1,6 @@
 Bu eğitim bir görev kontrol ünitesinde çalışan bir Dronekit Scripti aracılığı ile ardupilot/ px4 üzerine bina edilmiş bir insansız hava aracı otonom uçuşu nasıl gerçekleştirilir bunu kapsar. 
 
-9 dersten oluşan bir müfredata sahiptir. Bu dersler video olarak youtube üzerinden izlenmeli ve adım adım uygulanmalıdır.
+11 dersten oluşan bir müfredata sahiptir. Bu dersler video olarak youtube üzerinden izlenmeli ve adım adım uygulanmalıdır.
 
 Youtube eğitim linki: https://www.youtube.com/watch?v=hKjJbWBXjbA&list=PLfnjV8SeD2_dpVGki_pdTd6ZdiHg7qM6i&ab_channel=%C4%B0mamDe%C4%9Filim
 
@@ -24,6 +24,9 @@ Ders8. Konum komutu
 
 Ders9. Mavlink Mesajı Dinleme, Gps zamanı.
 
+Ders 10. Görev Bilgisayarı ile Otopilot arası bağlantıyı Dronekit ile kurmak
+
+Ders 11. Dronekit ile Telemetri Bağlantısı ve Minik bir YKİ arayüzü geliştirme.
 
 --Ödevler-- 
 

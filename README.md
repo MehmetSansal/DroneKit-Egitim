@@ -26,6 +26,10 @@ Youtube eğitim linki: https://www.youtube.com/watch?v=hKjJbWBXjbA&list=PLfnjV8S
 
 -Ders9. Mavlink Mesajı Dinleme, Gps zamanı.
 
+-Ders 10. Görev Bilgisayarı ile Otopilot arası bağlantıyı Dronekit ile kurmak
+
+-Ders 11. Dronekit ile Telemetri Bağlantısı ve Minik bir YKİ arayüzü geliştirme.
+
 #--Ödevler--
 
 Bu ödevler eğitimin ardından yapılmalıdır. (İlk iki ödev sizin yazacağınız fonksiyondur, dronekitle alakası yoktur.)
